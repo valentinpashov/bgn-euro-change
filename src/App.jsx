@@ -8,6 +8,7 @@ function App() {
   const [given, setGiven] = useState('');   
   
   const rate = 1.95583;
+
   const billNum = parseFloat(bill);
   const givenNum = parseFloat(given);
 
@@ -19,6 +20,12 @@ function App() {
     changeBGN = diff.toFixed(2);
     changeEUR = (diff / rate).toFixed(2);
   }
+
+  // Clear function
+  const handleReset = () => {
+    setBill('');
+    setGiven('');
+  };
 
   return (
     <div className="app-container">
@@ -40,7 +47,14 @@ function App() {
           placeholder="Напр. 20.00"
         />
 
+        {/* Result */}
         <ChangeResult bgn={changeBGN} eur={changeEUR} />
+
+        {/* Reset Button */}
+        {(bill || given) && (
+          <button onClick={handleReset} className="reset-button">🔄 Нова сметка</button>
+        )}
+
       </div>
     </div>
   )
