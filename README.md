@@ -1,16 +1,58 @@
-# React + Vite
+# 💶 BGN to EUR Change Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, high-performance web application designed to automatically calculate change from Bulgarian Leva (BGN) to Euro (EUR) using the fixed exchange rate.
 
-Currently, two official plugins are available:
+## ✨ Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* **⚡ Real-Time Calculation:** Results update instantly as you type.
+* **🎨 Modern UI:** Clean interface.
+* **🔄 Smart Reset:** Reset button
+* **🇧🇬 Fixed Rate:** Official exchange rate: **1.95583**.
 
-## React Compiler
+## 🛠 Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **[React](https://react.dev/)** - UI Library.
+* **[Vite](https://vitejs.dev/)** - Next Generation Frontend Tooling.
+* **CSS3** - Custom styling with Flexbox, CSS Variables, and Animations.
+* **Vite PWA Plugin** - For Progressive Web App capabilities.
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Follow these steps to run the project locally.
+
+### Prerequisites
+Make sure you have [Node.js](https://nodejs.org/) installed.
+
+### Installation
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/YOUR-USERNAME/bgn-euro-change.git](https://github.com/YOUR-USERNAME/bgn-euro-change.git)
+    cd bgn-euro-change
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+3.  **Start the development server:**
+    ```bash
+    npm run dev
+    ```
+
+4.  Open your browser at: `http://localhost:5173`
+
+## 📂 Project Structure
+
+```text
+src/
+├── components/
+│   ├── MoneyInput.jsx      # Reusable input component with modern styling
+│   ├── MoneyInput.css      # Styles for inputs
+│   ├── ChangeResult.jsx    # Component to display the calculated change
+│   └── ChangeResult.css    # Styles for the result card
+├── App.jsx                 # Main application logic and state management
+├── App.css                 # Global layout, "Aurora" background, and Reset button
+└── main.jsx                # Application entry point
+└── index.css               
