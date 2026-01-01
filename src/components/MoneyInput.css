@@ -19,9 +19,8 @@
   font-size: 17px;
   font-family: 'Inter', sans-serif;
   color: #111827;
-  /* Модерен стил: без рамка, но с лек фон */
   background-color: #f9fafb; 
-  border: 1px solid #e5e7eb; /* Много тънка рамка */
+  border: 1px solid #e5e7eb;
   border-radius: 12px;
   box-sizing: border-box;
   transition: all 0.2s ease;
@@ -31,10 +30,9 @@
   color: #9ca3af;
 }
 
-/* Когато кликнеш да пишеш */
 .custom-input:focus {
   outline: none;
   background-color: #ffffff;
-  border-color: #3b82f6; /* Синя рамка */
-  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.1); /* Сияние */
+  border-color: #3b82f6; 
+  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.1);
 }
