@@ -1,7 +1,7 @@
 .result-card {
   margin-top: 30px;
   padding: 25px;
-  background-color: #f8fafc; /* Много светло синьо-сиво */
+  background-color: #f8fafc; 
   border: 1px solid #e2e8f0;
   border-radius: 16px;
   animation: fadeIn 0.4s ease-out;
@@ -31,19 +31,19 @@
 .amount-bgn {
   font-size: 24px;
   font-weight: 700;
-  color: #16a34a; /* Наситено зелено */
+  color: #16a34a; 
 }
 
 .amount-eur {
   font-size: 24px;
   font-weight: 700;
-  color: #2563eb; /* Наситено синьо */
+  color: #2563eb; 
 }
 
 .divider {
   width: 100%;
   height: 1px;
-  background-color: #cbd5e1; /* Тънка разделителна линия */
+  background-color: #cbd5e1;
   margin: 15px 0;
 }
 
