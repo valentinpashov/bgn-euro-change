@@ -4,24 +4,24 @@ A modern, high-performance web application designed to automatically calculate c
 
 ## ✨ Key Features
 
-* **⚡ Real-Time Calculation:** Results update instantly as you type.
-* **🎨 Modern UI:** Clean interface.
-* **🔄 Smart Reset:** Reset button
+* **Real-Time Calculation:** Results update instantly as you type.
+* **Modern UI:** Clean interface.
+* **Smart Reset:** Reset button
 * **🇧🇬 Fixed Rate:** Official exchange rate: **1.95583**.
 
 ## 🛠 Tech Stack
 
-* **[React](https://react.dev/)** - UI Library.
-* **[Vite](https://vitejs.dev/)** - Next Generation Frontend Tooling.
-* **CSS3** - Custom styling with Flexbox, CSS Variables, and Animations.
-* **Vite PWA Plugin** - For Progressive Web App capabilities.
+* **React**
+* **Vite**
+* **CSS3**
+* **Vite PWA Plugin**
 
 ## 🚀 Getting Started
 
 Follow these steps to run the project locally.
 
 ### Prerequisites
-Make sure you have [Node.js](https://nodejs.org/) installed.
+Make sure you have Node.js installed.
 
 ### Installation
 
